@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/tealShade"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/user"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/materialTextField4"
+        android:layout_alignLeft="@+id/materialTextField4"
+        android:layout_alignStart="@+id/materialTextField4">
+
+        <EditText
+            android:id="@+id/sign_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/email"
+        android:layout_marginBottom="41dp"
+        android:id="@+id/materialTextField4"
+        android:layout_above="@+id/materialTextField3"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/sign_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:mtf_image="@drawable/password"
+        android:layout_marginBottom="187dp"
+        android:id="@+id/materialTextField3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/sign_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="@string/sign_up"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progressBar7"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signup"
+        android:layout_alignLeft="@+id/signup"
+        android:layout_alignStart="@+id/signup"
+        android:layout_alignRight="@+id/signup"
+        android:layout_alignEnd="@+id/signup" />
+
+    <TextView
+        android:id="@+id/login_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:textColor="#ffffff"
+        android:text="@string/already_signed_up_login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="101dp"
+        android:layout_marginEnd="101dp" />
+
+</RelativeLayout>

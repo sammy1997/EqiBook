@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EqiBook</string>
+    <string name="not_an_user">Not an user yet? Sign up here.</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_signed_up_login">Already signed up? Login</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="sample">The Hindu</string>
+    <string name="cricket_bat">Cricket Bat</string>
+    <string name="from_time">From Time(hh:mm)</string>
+    <string name="date">Date(dd/mm/yy)</string>
+    <array name="sport_item_list">
+        <item>Cricket Bat</item>
+        <item>Ball</item>
+        <item>Stumps</item>
+        <item>TT Bat</item>
+        <item>TT Ball</item>
+    </array>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "155719823137",
+    "firebase_url": "https://eqibook.firebaseio.com",
+    "project_id": "eqibook",
+    "storage_bucket": "eqibook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155719823137:android:b4a7780ae3f81c0d",
+        "android_client_info": {
+          "package_name": "com.example.sammy.eqibook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155719823137-bv4ngjdte9scf5titdsl4r8tv32p7cd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sammy.eqibook",
+            "certificate_hash": "5932190dd7ec0da36d20ef32bc2d5ded48df3be2"
+          }
+        },
+        {
+          "client_id": "155719823137-jke03l4q958t04dph1639atdkdq1blie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABeviVdUVrPU6_XaN4XuygcxXk8cPFgzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155719823137-jke03l4q958t04dph1639atdkdq1blie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
